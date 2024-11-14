@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tristar Engineering & Construction - ERP Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="login-box">
+            <div class="left-section">
+                <div class="logo-container">
+                    <img src="tristar-logo.png" alt="Tristar Engineering & Construction Logo" class="company-logo">
+                    <h2>ERP System Login</h2>
+                </div>
+                <form action="/login" method="POST">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username">
+
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password">
+
+                    <label for="server">Server</label>
+                    <select id="server" name="server">
+                        <option value="">Select Server</option>
+                        <option value="server1">Server 1</option>
+                        <option value="server2">Server 2</option>
+                    </select>
+
+                    <button type="submit" class="login-btn">Login</button>
+                </form>
+            </div>
+
+            <div class="right-section">
+                <h3>Pro Tip #1</h3>
+                <p>Speed up data entry by using the F4 key to automatically accept all field defaults.</p>
+                <img src="data-entry-image.jpg" alt="Data Entry Image" class="data-entry-image">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
